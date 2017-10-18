@@ -1,0 +1,22 @@
+{
+  "name": "angular-nanoscroller",
+  "version": "1.0.0",
+  "description": "Wrapper for [nanoScrollerJS](http://jamesflorentino.github.io/nanoScrollerJS/) with AngularJS lifecycle integration.  [Demo plunker](http://embed.plnkr.co/pnSkmuRc7HjXjMG0DdrT/preview)",
+  "main": "scrollable.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinkoMiletic/angular-nanoscroller.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinkoMiletic/angular-nanoscroller/issues"
+  },
+  "homepage": "https://github.com/DinkoMiletic/angular-nanoscroller#readme"
+}
