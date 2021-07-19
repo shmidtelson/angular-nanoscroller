@@ -71,16 +71,6 @@
                 $nanoElement.nanoScroller();
               });
             }
-            //If scroller was on the bottom, scroll to bottom
-            else if (newHeight !== oldHeight && contentElement.scrollTop &&
-              (oldHeight - contentElement.scrollTop - parentElement.clientHeight) < scrollableConfig.bottomMargin) {
-              scope.$evalAsync(function () {
-                // To make right calculation scroller must be reseted
-                // See https://github.com/maxaon/angular-nanoscroller/issues/4
-                $nanoElement.nanoScroller();
-              });
-
-            }
             // Otherwise just update the pane
             else {
               $nanoElement.nanoScroller();
