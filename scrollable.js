@@ -78,7 +78,6 @@
                 // To make right calculation scroller must be reseted
                 // See https://github.com/maxaon/angular-nanoscroller/issues/4
                 $nanoElement.nanoScroller();
-                $nanoElement.nanoScroller({scroll: 'bottom'});
               });
 
             }
